@@ -1,0 +1,47 @@
+.contact {
+  height: 100%;
+  padding-top: 44.3vh;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background:
+    linear-gradient(to right,
+      rgba($primary-color, 0.9),
+      rgba($primary-color, 0.4)),
+    url('../img/model-1.jpg') center top;
+  background-size: cover;
+
+  h1 {
+    font-size: 3rem;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid set-text-color($primary-color);
+  }
+
+  &__list {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    
+
+    &--last {
+      color: $secondary-color;
+      font-weight: 700;
+    }
+  }
+
+  &__list__item {
+    padding: 1rem;
+
+    i {
+      padding-bottom: 0.5rem;
+    }
+  }
+
+  .social-icons {
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+}
